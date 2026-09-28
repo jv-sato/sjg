@@ -1,0 +1,2234 @@
+<!doctype html>
+
+<html class="light" lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="web_standard" name="shell-type" />
+    <title>SJG - São João Glass | Vidros e Esquadrias de Alto Padrão</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Montserrat:wght@500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @layer base {
+        html,
+        body {
+          margin: 0;
+          padding: 0;
+        }
+        body {
+          overscroll-behavior: none;
+        }
+        main > :first-child {
+          margin-top: 0 !important;
+        }
+        main > :last-child {
+          margin-bottom: 0 !important;
+        }
+      }
+      ::-webkit-scrollbar {
+        display: none;
+      }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-low": "#f1f3ff",
+              "inverse-on-surface": "#edf0ff",
+              "tertiary-container": "#00254c",
+              "on-primary-fixed-variant": "#314769",
+              surface: "#f9f9ff",
+              "on-primary-fixed": "#001c3b",
+              "on-secondary": "#ffffff",
+              "surface-variant": "#dce2f7",
+              "on-secondary-fixed-variant": "#004c6b",
+              "surface-container": "#e9edff",
+              "outline-variant": "#c4c6cf",
+              "on-primary-container": "#778db2",
+              secondary: "#00658d",
+              tertiary: "#001027",
+              "surface-tint": "#495f82",
+              "on-tertiary-fixed": "#001c3b",
+              "surface-bright": "#f9f9ff",
+              "primary-fixed": "#d5e3ff",
+              "on-tertiary": "#ffffff",
+              "secondary-fixed": "#c6e7ff",
+              "on-tertiary-fixed-variant": "#1d477c",
+              "error-container": "#ffdad6",
+              "secondary-container": "#3dbeff",
+              "on-tertiary-container": "#688dc6",
+              "on-secondary-container": "#004a69",
+              primary: "#001026",
+              error: "#ba1a1a",
+              "tertiary-fixed-dim": "#a7c8ff",
+              "on-background": "#141b2b",
+              "primary-container": "#0b2545",
+              "secondary-fixed-dim": "#83cfff",
+              "on-error": "#ffffff",
+              "on-primary": "#ffffff",
+              "on-error-container": "#93000a",
+              "on-surface-variant": "#44474e",
+              "on-secondary-fixed": "#001e2d",
+              "surface-dim": "#d3daef",
+              "surface-container-highest": "#dce2f7",
+              "surface-container-high": "#e1e8fd",
+              outline: "#74777f",
+              background: "#f9f9ff",
+              "tertiary-fixed": "#d5e3ff",
+              "primary-fixed-dim": "#b1c7f0",
+              "inverse-primary": "#b1c7f0",
+              "on-surface": "#141b2b",
+              "surface-container-lowest": "#ffffff",
+              "inverse-surface": "#293040",
+            },
+            borderRadius: {
+              DEFAULT: "0.125rem",
+              lg: "0.25rem",
+              xl: "0.5rem",
+              full: "0.75rem",
+            },
+            spacing: {
+              "gutter-lg": "2rem",
+              "gutter-sm": "1rem",
+              "margin-lg": "4rem",
+              margin: "2rem",
+              "space-xs": "0.25rem",
+              "space-lg": "1.5rem",
+              "space-xl": "2.5rem",
+              "space-md": "1rem",
+              gutter: "1.5rem",
+              "space-sm": "0.5rem",
+              "margin-sm": "1rem",
+            },
+            fontFamily: {
+              "label-lg": ["Inter"],
+              "headline-sm": ["Montserrat"],
+              "headline-lg-mobile": ["Montserrat"],
+              "label-sm": ["Inter"],
+              "headline-xl": ["Montserrat"],
+              "headline-md": ["Montserrat"],
+              "body-lg": ["Inter"],
+              "display-lg": ["Montserrat"],
+              "display-lg-mobile": ["Montserrat"],
+              "headline-xl-mobile": ["Montserrat"],
+              "body-xl": ["Inter"],
+              "body-sm": ["Inter"],
+              "headline-lg": ["Montserrat"],
+              "body-md": ["Inter"],
+              "label-md": ["Inter"],
+            },
+            fontSize: {
+              "label-lg": [
+                "14px",
+                {
+                  lineHeight: "20px",
+                  letterSpacing: "0.04em",
+                  fontWeight: "600",
+                },
+              ],
+              "headline-sm": [
+                "20px",
+                { lineHeight: "28px", letterSpacing: "0em", fontWeight: "600" },
+              ],
+              "headline-lg-mobile": [
+                "24px",
+                { lineHeight: "32px", letterSpacing: "0em", fontWeight: "600" },
+              ],
+              "label-sm": [
+                "11px",
+                {
+                  lineHeight: "14px",
+                  letterSpacing: "0.06em",
+                  fontWeight: "500",
+                },
+              ],
+              "headline-xl": [
+                "40px",
+                {
+                  lineHeight: "48px",
+                  letterSpacing: "-0.015em",
+                  fontWeight: "600",
+                },
+              ],
+              "headline-md": [
+                "24px",
+                {
+                  lineHeight: "32px",
+                  letterSpacing: "-0.005em",
+                  fontWeight: "500",
+                },
+              ],
+              "body-lg": [
+                "16px",
+                { lineHeight: "26px", letterSpacing: "0em", fontWeight: "400" },
+              ],
+              "display-lg": [
+                "56px",
+                {
+                  lineHeight: "64px",
+                  letterSpacing: "-0.02em",
+                  fontWeight: "700",
+                },
+              ],
+              "display-lg-mobile": [
+                "36px",
+                {
+                  lineHeight: "44px",
+                  letterSpacing: "-0.01em",
+                  fontWeight: "700",
+                },
+              ],
+              "headline-xl-mobile": [
+                "28px",
+                {
+                  lineHeight: "36px",
+                  letterSpacing: "-0.01em",
+                  fontWeight: "600",
+                },
+              ],
+              "body-xl": [
+                "18px",
+                {
+                  lineHeight: "28px",
+                  letterSpacing: "-0.005em",
+                  fontWeight: "400",
+                },
+              ],
+              "body-sm": [
+                "12px",
+                {
+                  lineHeight: "18px",
+                  letterSpacing: "0.01em",
+                  fontWeight: "400",
+                },
+              ],
+              "headline-lg": [
+                "32px",
+                {
+                  lineHeight: "40px",
+                  letterSpacing: "-0.01em",
+                  fontWeight: "600",
+                },
+              ],
+              "body-md": [
+                "14px",
+                {
+                  lineHeight: "22px",
+                  letterSpacing: "0.005em",
+                  fontWeight: "400",
+                },
+              ],
+              "label-md": [
+                "12px",
+                {
+                  lineHeight: "16px",
+                  letterSpacing: "0.05em",
+                  fontWeight: "600",
+                },
+              ],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body
+    class="bg-surface font-body-md text-body-md text-on-surface antialiased"
+  >
+    <header
+      class="fixed top-0 left-0 w-full z-50 bg-surface-container-lowest/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"
+    >
+      <div class="w-full px-margin-sm md:px-margin lg:px-margin-lg">
+        <div class="h-20 flex items-center justify-between gap-space-md">
+          <div class="flex items-center gap-space-md shrink-0">
+            <img
+              alt="Logo SJG São João Glass"
+              class="h-20 w-auto object-contain"
+              src="assets/logo.png"
+            />
+          </div>
+          <nav
+            class="hidden xl:flex items-center gap-space-md"
+            data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg px-3 py-1.5"
+          >
+            <a
+              class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-3 py-1.5 transition-colors"
+              data-path="inicio"
+              href="#"
+              >Início</a
+            ><a
+              class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-3 py-1.5 transition-colors"
+              data-path="sobre-nos"
+              href="#"
+              >Sobre Nós</a
+            ><a
+              class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-3 py-1.5 transition-colors"
+              data-path="solucoes-servicos"
+              href="#"
+              >Soluções &amp; Serviços</a
+            ><a
+              class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-3 py-1.5 transition-colors"
+              data-path="projetos-recentes"
+              href="#"
+              >Projetos Recentes</a
+            ><a
+              class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-3 py-1.5 transition-colors"
+              data-path="diferenciais"
+              href="#"
+              >Diferenciais</a
+            ><a
+              class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface px-3 py-1.5 transition-colors"
+              data-path="contato"
+              href="#"
+              >Contato</a
+            >
+          </nav>
+          <div class="flex items-center gap-space-md">
+            <div class="hidden sm:flex flex-col text-right">
+              <span class="font-label-md text-label-md text-primary font-bold"
+                >(19) 99876-5432</span
+              ><span class="font-label-sm text-label-sm text-on-surface-variant"
+                >Atendimento São João e Região</span
+              >
+            </div>
+            <a
+              class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-primary-container text-on-primary font-label-lg text-label-lg rounded-lg shadow-sm hover:bg-secondary transition-all"
+              data-path="solicitar-orcamento"
+              href="#"
+              ><span class="material-symbols-outlined text-[18px]">chat</span
+              ><span>Solicitar Orçamento</span></a
+            >
+            <div
+              class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shrink-0"
+            >
+              <span
+                class="material-symbols-outlined text-on-primary text-[18px]"
+                >person</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="w-full pt-20 bg-surface min-h-[calc(100vh-80px)]">
+      <div class="flex flex-col w-full">
+        <!-- 1. HERO SECTION -->
+        <section
+          class="relative w-full -mt-20 overflow-hidden bg-primary text-on-primary"
+        >
+          <div class="absolute inset-0 z-0">
+            <img
+              class="w-full h-full object-cover object-center opacity-45 mix-blend-luminosity scale-105 transition-transform duration-1000"
+              data-alt="Penthouse interior with massive floor-to-ceiling glass sliding doors opening onto an expansive outdoor terrace overlooking an architectural city skyline at golden hour. Warm light floods the polished modern living room with soft shadows, minimalist luxury finishes, structural glass balustrades, and brushed steel details."
+              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCD_XfdqYS98gC3dLYNidDHbMMKxs9T2CNHOsfk9xhEFJeqtLkA7JegnpeL9lBft2TpAxNJ86spMCDn9gx2qImJQ9RuFjzr782WFYL9HZWhQXd8PafzTZSxSOzKJzmIQPdfw966W_0Z_W6m4gEhoQz1FOzmiGNbO38WYdzVDPfKRpD5pyDOQZxAapNuZgyLqluvN6msM0u-jDGb_q0CySfO76VestPnNDINHEbw9lt1uecXXmhwBmQ1"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-r from-primary via-primary/80 to-transparent"
+            ></div>
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-primary via-transparent to-primary/60"
+            ></div>
+          </div>
+          <div
+            class="relative z-10 w-full px-margin-sm md:px-margin lg:px-margin-lg pt-40 pb-space-xl"
+          >
+            <div class="max-w-4xl flex flex-col gap-space-md">
+              <div
+                class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-container-lowest/15 backdrop-blur-md self-start shadow-sm"
+              >
+                <span
+                  class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"
+                ></span>
+                <span
+                  class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed"
+                  >Especialistas em Vidros Temperados &amp; Esquadrias de Alto
+                  Padrão</span
+                >
+              </div>
+              <h1
+                class="font-display-lg text-display-lg text-on-primary tracking-tight max-w-3xl"
+              >
+                Transforme Espaços com Elegância, Luz e a Segurança do
+                <span class="text-secondary-fixed">Vidro Arquitetônico</span>.
+              </h1>
+              <p
+                class="font-body-xl text-body-xl text-surface-variant max-w-2xl leading-relaxed"
+              >
+                Soluções sob medida em envidraçamento de sacadas panorâmicas,
+                fachadas glazing, esquadrias de alumínio estrutural e
+                acabamentos refinados para residências e empresas em São João da
+                Boa Vista e toda a região.
+              </p>
+              <div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+                <a
+                  class="inline-flex items-center gap-space-xs px-space-lg py-space-md bg-secondary hover:bg-secondary-container text-on-secondary hover:text-on-secondary-container font-label-lg text-label-lg rounded-lg shadow-md transition-all"
+                  href="#orcamento"
+                >
+                  <span class="material-symbols-outlined text-[20px]"
+                    >chat</span
+                  >
+                  <span>Solicitar Orçamento Grátis via WhatsApp</span>
+                </a>
+                <a
+                  class="inline-flex items-center gap-space-xs px-space-lg py-space-md bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 backdrop-blur-md text-on-primary font-label-lg text-label-lg rounded-lg shadow-sm transition-all"
+                  href="#projetos"
+                >
+                  <span class="material-symbols-outlined text-[20px]"
+                    >photo_library</span
+                  >
+                  <span>Ver Nossos Projetos</span>
+                </a>
+              </div>
+              <!-- Metric Ribbon -->
+              <div
+                class="grid grid-cols-2 md:grid-cols-4 gap-space-md pt-space-xl mt-space-md"
+              >
+                <div
+                  class="flex flex-col p-space-md bg-surface-container-lowest/10 backdrop-blur-md rounded-lg shadow-sm"
+                >
+                  <span
+                    class="font-headline-xl text-headline-xl text-secondary-fixed font-bold"
+                    >+12</span
+                  >
+                  <span
+                    class="font-label-md text-label-md text-surface-variant uppercase tracking-wider"
+                    >Anos de Tradição</span
+                  >
+                  <span
+                    class="font-body-sm text-body-sm text-surface-variant/70 mt-1"
+                    >Excelência consolidada</span
+                  >
+                </div>
+                <div
+                  class="flex flex-col p-space-md bg-surface-container-lowest/10 backdrop-blur-md rounded-lg shadow-sm"
+                >
+                  <span
+                    class="font-headline-xl text-headline-xl text-secondary-fixed font-bold"
+                    >+3.500</span
+                  >
+                  <span
+                    class="font-label-md text-label-md text-surface-variant uppercase tracking-wider"
+                    >Projetos Instalados</span
+                  >
+                  <span
+                    class="font-body-sm text-body-sm text-surface-variant/70 mt-1"
+                    >São João e Região</span
+                  >
+                </div>
+                <div
+                  class="flex flex-col p-space-md bg-surface-container-lowest/10 backdrop-blur-md rounded-lg shadow-sm"
+                >
+                  <span
+                    class="font-headline-xl text-headline-xl text-secondary-fixed font-bold"
+                    >100%</span
+                  >
+                  <span
+                    class="font-label-md text-label-md text-surface-variant uppercase tracking-wider"
+                    >Normas ABNT</span
+                  >
+                  <span
+                    class="font-body-sm text-body-sm text-surface-variant/70 mt-1"
+                    >NBR 16259 &amp; 14718</span
+                  >
+                </div>
+                <div
+                  class="flex flex-col p-space-md bg-surface-container-lowest/10 backdrop-blur-md rounded-lg shadow-sm"
+                >
+                  <span
+                    class="font-headline-xl text-headline-xl text-secondary-fixed font-bold"
+                    >5 Anos</span
+                  >
+                  <span
+                    class="font-label-md text-label-md text-surface-variant uppercase tracking-wider"
+                    >Garantia Real</span
+                  >
+                  <span
+                    class="font-body-sm text-body-sm text-surface-variant/70 mt-1"
+                    >Assistência técnica local</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 2. QUEM SOMOS / INSTITUCIONAL -->
+        <section class="w-full py-space-xl bg-surface" id="sobre">
+          <div class="w-full px-margin-sm md:px-margin lg:px-margin-lg">
+            <div
+              class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center"
+            >
+              <div class="lg:col-span-6 flex flex-col gap-space-md">
+                <div
+                  class="flex items-center gap-space-xs text-secondary font-label-md text-label-md uppercase tracking-widest font-semibold"
+                >
+                  <span class="material-symbols-outlined text-[16px]"
+                    >verified</span
+                  >
+                  <span>A Referência em Engenharia do Vidro</span>
+                </div>
+                <h2
+                  class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight"
+                >
+                  Engenharia de precisão com acabamento impecável e respeito
+                  absoluto aos prazos.
+                </h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant">
+                  A <strong>SJG - São João Glass</strong> nasceu com o
+                  compromisso de unir a leveza estética do vidro arquitetônico à
+                  robustez estrutural das melhores ligas de alumínio. Atendemos
+                  proprietários exigentes, construtoras e escritórios de
+                  arquitetura que não abrem mão de tolerâncias milimétricas.
+                </p>
+                <p class="font-body-md text-body-md text-on-surface-variant">
+                  Nossa equipe técnica passa por constantes recertificações nos
+                  sistemas Reiki e perfis das Linhas Gold e Suprema, assegurando
+                  isolamento acústico superior, estanqueidade contra intempéries
+                  e segurança perimetral certificada.
+                </p>
+                <!-- Badges de Certificação e Selos -->
+                <div
+                  class="grid grid-cols-1 sm:grid-cols-3 gap-space-sm pt-space-sm"
+                >
+                  <div
+                    class="p-space-md bg-surface-container-low rounded-lg shadow-sm flex flex-col gap-1"
+                  >
+                    <span
+                      class="material-symbols-outlined text-secondary text-[28px]"
+                      >shield</span
+                    >
+                    <span
+                      class="font-label-md text-label-md text-primary font-bold"
+                      >Vidros de Segurança</span
+                    >
+                    <span
+                      class="font-body-sm text-body-sm text-on-surface-variant"
+                      >Temperados e multilaminados certificados</span
+                    >
+                  </div>
+                  <div
+                    class="p-space-md bg-surface-container-low rounded-lg shadow-sm flex flex-col gap-1"
+                  >
+                    <span
+                      class="material-symbols-outlined text-secondary text-[28px]"
+                      >architecture</span
+                    >
+                    <span
+                      class="font-label-md text-label-md text-primary font-bold"
+                      >Alumínio Nobre</span
+                    >
+                    <span
+                      class="font-body-sm text-body-sm text-on-surface-variant"
+                      >Pintura eletrostática &amp; anodização pura</span
+                    >
+                  </div>
+                  <div
+                    class="p-space-md bg-surface-container-low rounded-lg shadow-sm flex flex-col gap-1"
+                  >
+                    <span
+                      class="material-symbols-outlined text-secondary text-[28px]"
+                      >hearing</span
+                    >
+                    <span
+                      class="font-label-md text-label-md text-primary font-bold"
+                      >Vedação Acústica</span
+                    >
+                    <span
+                      class="font-body-sm text-body-sm text-on-surface-variant"
+                      >Atenuação sonora e estanqueidade total</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="lg:col-span-6 relative">
+                <div
+                  class="relative rounded-xl overflow-hidden shadow-xl bg-surface-container"
+                >
+                  <img
+                    class="w-full h-[460px] object-cover"
+                    data-alt="High-end modern architectural home facade featuring large floor-to-ceiling glass curtain walls and sleek black anodized aluminum window frames. The setting shows landscaped tropical gardens reflected in the ultra-clear glass panels with warm evening interior lights glowing."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDRMSDfq-ZoOGlIbDwaOgRH2Fkz8zDEHiIE-J1sxUpOctIbpdHK3bHV99PR6bLzqgqxENQOnmx4xxmsclJzuBb-p1K85wj5CqOayDCXxUKct7yH3gkqUsKwkmY0nMulIeUyvt4sWQAmV1u3aSyU_OF8mfHA0DmiUdazHn4IM4axM1Gz6UyRpsx6H4w8oMq_WolUVcU18uzT81Tf6t_sIbx_2lv9rZ--33NTnkko4zx3JbntFvgbt9-N"
+                  />
+                  <div
+                    class="absolute bottom-0 inset-x-0 p-space-md bg-primary/90 backdrop-blur-md text-on-primary flex items-center justify-between"
+                  >
+                    <div class="flex flex-col">
+                      <span class="font-label-lg text-label-lg font-bold"
+                        >Instalação Residencial de Alto Padrão</span
+                      >
+                      <span
+                        class="font-body-sm text-body-sm text-surface-variant"
+                        >Condomínio Portal da Colina, São João da Boa
+                        Vista</span
+                      >
+                    </div>
+                    <span
+                      class="font-label-sm text-label-sm px-space-sm py-space-xs bg-secondary rounded text-on-secondary"
+                      >Linha Gold</span
+                    >
+                  </div>
+                </div>
+                <!-- Overlapping Card -->
+                <div
+                  class="hidden sm:flex absolute -bottom-6 -left-6 p-space-md bg-surface-container-lowest rounded-lg shadow-xl max-w-xs flex-col gap-1"
+                >
+                  <div
+                    class="flex items-center gap-space-xs text-secondary font-bold"
+                  >
+                    <span class="material-symbols-outlined text-[20px]"
+                      >handshake</span
+                    >
+                    <span class="font-label-md text-label-md"
+                      >Atendimento Consultivo</span
+                    >
+                  </div>
+                  <p class="font-body-sm text-body-sm text-on-surface-variant">
+                    Acompanhamento de ponta a ponta: da medição a laser até o
+                    pós-obra.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 3. NOSSOS SERVIÇOS & SOLUÇÕES (Grid com 8 Cards Glassmorphism) -->
+        <section
+          class="w-full py-space-xl bg-surface-container-low"
+          id="servicos"
+        >
+          <div class="w-full px-margin-sm md:px-margin lg:px-margin-lg">
+            <div
+              class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl"
+            >
+              <div class="flex flex-col gap-space-xs max-w-2xl">
+                <span
+                  class="text-secondary font-label-md text-label-md uppercase tracking-widest font-semibold"
+                  >Portfólio de Soluções</span
+                >
+                <h2
+                  class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight"
+                >
+                  Vidros &amp; Esquadrias para Projetos Singulares
+                </h2>
+                <p class="font-body-lg text-body-lg text-on-surface-variant">
+                  Cada elemento é desenhado e montado com materiais homologados
+                  de fornecedores líderes mundiais (Cebrace, Guardian e AGC).
+                </p>
+              </div>
+              <a
+                class="inline-flex items-center gap-space-xs px-space-md py-space-sm bg-primary text-on-primary rounded-lg font-label-lg text-label-lg hover:bg-secondary transition-all shrink-0"
+                href="#orcamento"
+              >
+                <span>Ver Todas as Especificações</span>
+                <span class="material-symbols-outlined text-[18px]"
+                  >arrow_forward</span
+                >
+              </a>
+            </div>
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md"
+            >
+              <!-- Serviço 1 -->
+              <div
+                class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all"
+              >
+                <div class="relative h-48 overflow-hidden bg-surface-container">
+                  <img
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    data-alt="Modern high-rise residential apartment balcony featuring a fully retractable seamless frameless glass curtain system with panoramic unobstructed views of distant green hills."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzRVwj1e2vVUeR-DeDkcgX2A2QGrXUyk17DWBWJFEAM2fNqzVUWelEsX9BC2ECohTlWNmu0cXOK7CKbS8cCNIdmZKwjjuTluc8L0bK7DLJaIDQ0wJZpKoDHvmnfXGD5cYRJDH3Vbdu3bD7y4gmuXaudtEYeLiygJPRVCfSwX8cqIzJNcs4p1zDnOJ9TGZMR6XIvqoICnzD9m82uJACDC8NaCKSFzJbkVwS67wQMZa08PjMuK4XkbAA"
+                  />
+                  <span
+                    class="absolute top-3 left-3 bg-primary/80 backdrop-blur-md text-on-primary font-label-sm text-label-sm px-space-sm py-space-xs rounded"
+                    >Mais Solicitado</span
+                  >
+                </div>
+                <div
+                  class="p-space-md flex flex-col flex-grow justify-between gap-space-md"
+                >
+                  <div class="flex flex-col gap-space-xs">
+                    <h3
+                      class="font-headline-sm text-headline-sm text-primary font-bold"
+                    >
+                      Envidraçamento de Sacadas
+                    </h3>
+                    <p
+                      class="font-body-sm text-body-sm text-on-surface-variant"
+                    >
+                      Sistema retrátil panorâmico tipo Reiki sem esquadrias
+                      verticais. Máximo aproveitamento e estanqueidade contra
+                      ventos severos.
+                    </p>
+                    <div class="flex flex-wrap gap-1 mt-2">
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >NBR 16259</span
+                      >
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Vidro 10mm</span
+                      >
+                    </div>
+                  </div>
+                  <a
+                    class="mt-2 flex items-center justify-between pt-space-sm font-label-md text-label-md text-secondary hover:text-primary font-semibold"
+                    href="#orcamento"
+                  >
+                    <span>Cotar este Item</span>
+                    <span class="material-symbols-outlined text-[18px]"
+                      >chevron_right</span
+                    >
+                  </a>
+                </div>
+              </div>
+              <!-- Serviço 2 -->
+              <div
+                class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all"
+              >
+                <div class="relative h-48 overflow-hidden bg-surface-container">
+                  <img
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    data-alt="Black aluminum framed sliding pocket doors in a luxury master bedroom connecting seamlessly to a contemporary pool terrace with minimalist detailing."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGrO_DSPaC_zk714riYb7IgI_veJKLQrmxo_XA8vNkclEylMwtcwY3_n9vNtML-UN7PqlGOI3E0xvWLxf0hpFFINmzBnMFpwHxbimt0Br4AYTSySNQh6euOu0ug9Zmnr5ie76aKpdfYRsv-t7bQ1hq1_VpmSc2Nizx7qZuKiS3LeFoW-R3hRn2P19X0CqUMgcuGhmlMlD6bXVqvKPv5Z_gu9erE_0NkZNUqK6ebMdwodpjEnSA6kXT"
+                  />
+                  <span
+                    class="absolute top-3 left-3 bg-secondary/80 backdrop-blur-md text-on-secondary font-label-sm text-label-sm px-space-sm py-space-xs rounded"
+                    >Linha Gold &amp; Suprema</span
+                  >
+                </div>
+                <div
+                  class="p-space-md flex flex-col flex-grow justify-between gap-space-md"
+                >
+                  <div class="flex flex-col gap-space-xs">
+                    <h3
+                      class="font-headline-sm text-headline-sm text-primary font-bold"
+                    >
+                      Esquadrias de Alumínio
+                    </h3>
+                    <p
+                      class="font-body-sm text-body-sm text-on-surface-variant"
+                    >
+                      Portas de correr integradas com recolhimento total,
+                      janelas maxim-ar e perfis reforçados com pintura
+                      eletrostática microtexturizada.
+                    </p>
+                    <div class="flex flex-wrap gap-1 mt-2">
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Roldanas Blindadas</span
+                      >
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Preto / Corten</span
+                      >
+                    </div>
+                  </div>
+                  <a
+                    class="mt-2 flex items-center justify-between pt-space-sm font-label-md text-label-md text-secondary hover:text-primary font-semibold"
+                    href="#orcamento"
+                  >
+                    <span>Cotar este Item</span>
+                    <span class="material-symbols-outlined text-[18px]"
+                      >chevron_right</span
+                    >
+                  </a>
+                </div>
+              </div>
+              <!-- Serviço 3 -->
+              <div
+                class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all"
+              >
+                <div class="relative h-48 overflow-hidden bg-surface-container">
+                  <img
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    data-alt="High-end contemporary bathroom with floor to ceiling frameless tempered glass shower enclosure featuring brushed gold hardware and marble walls."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBtXh88U1lUwl84mbzjeoh9Qzg9D7OZ5Kl-8ZFpac83PPHuKABF7hb4QVC6m5Wn-x3vmJWuEpvBLwN_fFj2W4NjG3KjjO2KlMIMOjrqfzZuwmyf4NOKPqaxpm7nQGGObcDA8PoGXq5Ep2oMBF4MRjhlghxnz4yLXiUECHqmxc7hBa4l-o894RVh6NvxCG40S0IVj7Xj6a2-UtcQra7yW6h-34irlLtR61y-cYIQaOrWVReK5IqOGDCO"
+                  />
+                </div>
+                <div
+                  class="p-space-md flex flex-col flex-grow justify-between gap-space-md"
+                >
+                  <div class="flex flex-col gap-space-xs">
+                    <h3
+                      class="font-headline-sm text-headline-sm text-primary font-bold"
+                    >
+                      Box de Banheiro Premium
+                    </h3>
+                    <p
+                      class="font-body-sm text-body-sm text-on-surface-variant"
+                    >
+                      Modelos Elegance até o teto, roldanas aparentes em aço
+                      inox 304, vidro temperado até 10mm com tratamento
+                      repelente de água.
+                    </p>
+                    <div class="flex flex-wrap gap-1 mt-2">
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Inox Escovado</span
+                      >
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Anti-manchas</span
+                      >
+                    </div>
+                  </div>
+                  <a
+                    class="mt-2 flex items-center justify-between pt-space-sm font-label-md text-label-md text-secondary hover:text-primary font-semibold"
+                    href="#orcamento"
+                  >
+                    <span>Cotar este Item</span>
+                    <span class="material-symbols-outlined text-[18px]"
+                      >chevron_right</span
+                    >
+                  </a>
+                </div>
+              </div>
+              <!-- Serviço 4 -->
+              <div
+                class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all"
+              >
+                <div class="relative h-48 overflow-hidden bg-surface-container">
+                  <img
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    data-alt="Structural laminated glass railing on an open terrace with stainless steel spigots and uninterrupted mountain view under clear blue skies."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuASE-91jTluRkZK7LKljd0bo0hzMWc6rkiucbN9LuC0IAu3bDPwybpLdoofgvmWBQyO7HdQt7ZG_zzH-Yn3PTSn-xrHZQSEKx0DQTVNyAsc84NqV52aH2kB7uT8Shm5gWO0wz9Uf2vg79hvt3hEBDOmn07iJ37tSQHSE5UNBcIVZ38FpfzQja4MWdAq8oHoj9mbU62W0e84VU6jjlXhEWR2K3rnrfDsW573OpwGRv-XavteWHLwhczn"
+                  />
+                </div>
+                <div
+                  class="p-space-md flex flex-col flex-grow justify-between gap-space-md"
+                >
+                  <div class="flex flex-col gap-space-xs">
+                    <h3
+                      class="font-headline-sm text-headline-sm text-primary font-bold"
+                    >
+                      Guarda-Corpos &amp; Corrimãos
+                    </h3>
+                    <p
+                      class="font-body-sm text-body-sm text-on-surface-variant"
+                    >
+                      Sistemas autoportantes com calha embutida ou torres de
+                      inox. Rigorosa conformidade de carga estrutural NBR 14718.
+                    </p>
+                    <div class="flex flex-wrap gap-1 mt-2">
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Laminado 8+8mm</span
+                      >
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Autoportante</span
+                      >
+                    </div>
+                  </div>
+                  <a
+                    class="mt-2 flex items-center justify-between pt-space-sm font-label-md text-label-md text-secondary hover:text-primary font-semibold"
+                    href="#orcamento"
+                  >
+                    <span>Cotar este Item</span>
+                    <span class="material-symbols-outlined text-[18px]"
+                      >chevron_right</span
+                    >
+                  </a>
+                </div>
+              </div>
+              <!-- Serviço 5 -->
+              <div
+                class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all"
+              >
+                <div class="relative h-48 overflow-hidden bg-surface-container">
+                  <img
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    data-alt="Two-story commercial building with reflective structural glazing glass curtain wall reflecting sunset clouds and architectural lighting."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAWjON9-o8v7-DwM1cF5imK7eYoW5GxFdIcJvaWAEuPihKy5ydralJGgeDLN-oBdzP-wUvfKpA_Af9JrL1V1Ar1wFErMM03KorOLmBM6obEplhRPKh37CiKlmEcgqG5rC_B2-BRAjwiHmaDHR3FDSERHOAdQlxVfZ31hOhTgzEm2OIcXhIDKJMNe30_r7-F2BYgrzLJzv_unOgCsAMn7YsBgk6JwB6zjfWAVxBv7toN6oWDfBsXREL2"
+                  />
+                </div>
+                <div
+                  class="p-space-md flex flex-col flex-grow justify-between gap-space-md"
+                >
+                  <div class="flex flex-col gap-space-xs">
+                    <h3
+                      class="font-headline-sm text-headline-sm text-primary font-bold"
+                    >
+                      Pele de Vidro / Glazing
+                    </h3>
+                    <p
+                      class="font-body-sm text-body-sm text-on-surface-variant"
+                    >
+                      Fachadas estruturais contínuas com fixação estrutural
+                      oculta por silicone estrutural bicomponente e vidros de
+                      controle solar.
+                    </p>
+                    <div class="flex flex-wrap gap-1 mt-2">
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Vidro Refletivo</span
+                      >
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Isolamento Térmico</span
+                      >
+                    </div>
+                  </div>
+                  <a
+                    class="mt-2 flex items-center justify-between pt-space-sm font-label-md text-label-md text-secondary hover:text-primary font-semibold"
+                    href="#orcamento"
+                  >
+                    <span>Cotar este Item</span>
+                    <span class="material-symbols-outlined text-[18px]"
+                      >chevron_right</span
+                    >
+                  </a>
+                </div>
+              </div>
+              <!-- Serviço 6 -->
+              <div
+                class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all"
+              >
+                <div class="relative h-48 overflow-hidden bg-surface-container">
+                  <img
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    data-alt="Sophisticated interior entrance foyer with a wall composed of large custom beveled mirror panels and warm integrated cove LED lighting."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAwqfA02L2gWEhZro3BYU4mQRIlPGqm38BoELoB-Lw3QS6EnJyBaT6vcOL1H-xulgSAl8oJ5uT3z40hXXUH-FQiT1JprxB_vTXKQDNjQY_O2_cIcKP_d_luUV46MFt5puNQBtHVlF88gDtyIdG11JfurCH9Ellp8b0Xij6Cg88TkWuMNWodi2TZHdoaby2VZc0kd9VugLpKrsN9hHWCEeyWLF1I0ha_GEydgnj54SBN7rAFd1f79OWw"
+                  />
+                </div>
+                <div
+                  class="p-space-md flex flex-col flex-grow justify-between gap-space-md"
+                >
+                  <div class="flex flex-col gap-space-xs">
+                    <h3
+                      class="font-headline-sm text-headline-sm text-primary font-bold"
+                    >
+                      Espelhos Bisotados &amp; LED
+                    </h3>
+                    <p
+                      class="font-body-sm text-body-sm text-on-surface-variant"
+                    >
+                      Espelhos Guardian UltraClear sem distorções, painéis
+                      decorativos com bisotê artesanal e iluminação perimetral
+                      indireta.
+                    </p>
+                    <div class="flex flex-wrap gap-1 mt-2">
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Prata Ecológico</span
+                      >
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Luz Quente 3000K</span
+                      >
+                    </div>
+                  </div>
+                  <a
+                    class="mt-2 flex items-center justify-between pt-space-sm font-label-md text-label-md text-secondary hover:text-primary font-semibold"
+                    href="#orcamento"
+                  >
+                    <span>Cotar este Item</span>
+                    <span class="material-symbols-outlined text-[18px]"
+                      >chevron_right</span
+                    >
+                  </a>
+                </div>
+              </div>
+              <!-- Serviço 7 -->
+              <div
+                class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all"
+              >
+                <div class="relative h-48 overflow-hidden bg-surface-container">
+                  <img
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    data-alt="Minimalist architectural office interior featuring floor to ceiling acoustic glass partitions with black hardware and double pivot glass door."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDVh8fLnC4fHdMadQ8hojo0B-1VoqLGX86npeEMvI0NIZj6xNcHVNUjLSCntSC6LDcxE7UD0QblRqyXLBRlpzbR7WVc9KEGKl-z2qFYyOTBVLFDNlsBbuWcayHARUYhmNTZsFHigAQ5DKEXKSqLRLLtuKCVx3yMvjbNALUqiP8iz6BjboCEyLyIZryWndHXxAy8NZN7YUOkHI7GJRFNM3b9PkIPesigdGMJafbmJ0Ri9we5WC-ebn5X"
+                  />
+                </div>
+                <div
+                  class="p-space-md flex flex-col flex-grow justify-between gap-space-md"
+                >
+                  <div class="flex flex-col gap-space-xs">
+                    <h3
+                      class="font-headline-sm text-headline-sm text-primary font-bold"
+                    >
+                      Portas &amp; Divisórias
+                    </h3>
+                    <p
+                      class="font-body-sm text-body-sm text-on-surface-variant"
+                    >
+                      Portas pivotantes imponentes com mola hidráulica embutida
+                      no piso e divisórias acústicas para ambientes corporativos
+                      e residenciais.
+                    </p>
+                    <div class="flex flex-wrap gap-1 mt-2">
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Pivô Oculto</span
+                      >
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Atenuação Sonora</span
+                      >
+                    </div>
+                  </div>
+                  <a
+                    class="mt-2 flex items-center justify-between pt-space-sm font-label-md text-label-md text-secondary hover:text-primary font-semibold"
+                    href="#orcamento"
+                  >
+                    <span>Cotar este Item</span>
+                    <span class="material-symbols-outlined text-[18px]"
+                      >chevron_right</span
+                    >
+                  </a>
+                </div>
+              </div>
+              <!-- Serviço 8 -->
+              <div
+                class="group flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all"
+              >
+                <div class="relative h-48 overflow-hidden bg-surface-container">
+                  <img
+                    class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    data-alt="Architectural modern outdoor pergola roof covered with solar control tinted laminated safety glass filtering natural sunlight over a luxury patio lounge."
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRosqoy60yQyGqPj50NImNR_BKANMZ49eXL2Txwb66VGQAomrIiYl83EI7o9s7XsskS2LH5mMRe9nWTNYaq9fq7qJcG4q8AF-r4DfmhqQHBqs_Ro9Vmp99cD51fWMdEC_hzCRD-sMkIOm2UO1Iy_zbQrZkcSr5z9s2OGLDHcUbD7i3_L4ty1uWExFtFT4-WDFghN7sjIV8cqolirl_ryVokpL3uC2wfgd2zHrQcfNcbgJWuds08aAL"
+                  />
+                </div>
+                <div
+                  class="p-space-md flex flex-col flex-grow justify-between gap-space-md"
+                >
+                  <div class="flex flex-col gap-space-xs">
+                    <h3
+                      class="font-headline-sm text-headline-sm text-primary font-bold"
+                    >
+                      Coberturas &amp; Pergolados
+                    </h3>
+                    <p
+                      class="font-body-sm text-body-sm text-on-surface-variant"
+                    >
+                      Proteção contra intempéries com 99% de bloqueio UV e
+                      redução térmica através de vidros refletivos temperados
+                      laminados.
+                    </p>
+                    <div class="flex flex-wrap gap-1 mt-2">
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Película PVB Térmica</span
+                      >
+                      <span
+                        class="px-2 py-0.5 bg-surface-container font-label-sm text-label-sm text-primary rounded"
+                        >Calhas Embutidas</span
+                      >
+                    </div>
+                  </div>
+                  <a
+                    class="mt-2 flex items-center justify-between pt-space-sm font-label-md text-label-md text-secondary hover:text-primary font-semibold"
+                    href="#orcamento"
+                  >
+                    <span>Cotar este Item</span>
+                    <span class="material-symbols-outlined text-[18px]"
+                      >chevron_right</span
+                    >
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 4. GALERIA DE PROJETOS RECENTES & PORTFÓLIO COM FILTROS -->
+        <section class="w-full py-space-xl bg-surface" id="projetos">
+          <div class="w-full px-margin-sm md:px-margin lg:px-margin-lg">
+            <div
+              class="flex flex-col items-center text-center gap-space-xs mb-space-lg max-w-3xl mx-auto"
+            >
+              <span
+                class="text-secondary font-label-md text-label-md uppercase tracking-widest font-semibold"
+                >Portfólio de Obras</span
+              >
+              <h2
+                class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight"
+              >
+                Obras Executadas com Assinatura SJG
+              </h2>
+              <p class="font-body-lg text-body-lg text-on-surface-variant">
+                Descubra residências de alto padrão e projetos comerciais
+                transformados pela luminosidade e precisão dos nossos vidros e
+                esquadrias.
+              </p>
+            </div>
+            <!-- Filtros interativos -->
+            <div
+              class="flex flex-wrap items-center justify-center gap-space-xs mb-space-lg"
+              id="portfolio-filters"
+            >
+              <button
+                class="portfolio-filter-btn px-space-md py-space-xs rounded-full bg-primary text-on-primary font-label-md text-label-md transition-all shadow-sm active"
+                data-filter="all"
+              >
+                Todos os Projetos
+              </button>
+              <button
+                class="portfolio-filter-btn px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all"
+                data-filter="sacadas"
+              >
+                Sacadas
+              </button>
+              <button
+                class="portfolio-filter-btn px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all"
+                data-filter="fachadas"
+              >
+                Fachadas
+              </button>
+              <button
+                class="portfolio-filter-btn px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all"
+                data-filter="banheiros"
+              >
+                Banheiros
+              </button>
+              <button
+                class="portfolio-filter-btn px-space-md py-space-xs rounded-full bg-surface-container text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all"
+                data-filter="residencial"
+              >
+                Residenciais
+              </button>
+            </div>
+            <!-- Galeria Grid -->
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md"
+              id="portfolio-grid"
+            >
+              <div
+                class="portfolio-item group relative rounded-xl overflow-hidden shadow-md bg-surface-container"
+                data-category="sacadas residencial"
+              >
+                <img
+                  class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700"
+                  data-alt="Luxury condominium curved balcony enclosed with seamless sliding glass curtain system, panoramic view of green rolling hills and mountain sunset in São João da Boa Vista."
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCoOTz-t_B-lQr0aT0iTagoT9Qe6ZK23CXmCRacR3jp84yjoaHeZcIdCROwu43Xbf9tRZl6M7LQ0C48FM5jpzFD35tvUnsopMYoihIYo-h3_twFI4WkkYpI-qLjZ-4hPg68AHPG5U9cTBdOD9BfvxZr_LzFt9BK_LE9wQVnICgmjI5JZaLmTNCYdrm3ro0x7WKf8IIacrGJ7-MI24rf3ulBV-BWl_fsgjocY_eT3vVtbqGD8SVwvKsV"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent opacity-90 p-space-md flex flex-col justify-end text-on-primary"
+                >
+                  <span
+                    class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider"
+                    >Edifício Panoramic • Sacadas</span
+                  >
+                  <h4 class="font-headline-sm text-headline-sm font-bold mt-1">
+                    Fechamento Panorâmico Curvo 120m²
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-surface-variant mt-1"
+                  >
+                    Vidro temperado 10mm incolor com roldanas de latão e perfis
+                    embutidos no granito.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="portfolio-item group relative rounded-xl overflow-hidden shadow-md bg-surface-container"
+                data-category="fachadas residencial"
+              >
+                <img
+                  class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700"
+                  data-alt="Double height luxury modern home entrance with giant frameless structural glass panels, black aluminum architectural pivot door, and minimalist stone pathway."
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuAnnCgpSkiurWYubX09q3RIcMOEtMo5Jf5kdFwv0Sh9uwnCa7hPueckPuwDpAHZvA-VYM9F4eZ05kJOUj0kj3UwWQ_2EjkKe1pfjUY2r7IzdFAUE0SUNbT2cqhGxC-itkgz6gripBCc15c8Lq7JvcBt1f-aHELk2PFnot2EAqoPKuu5H2VI6H7TenohttXOBjmrClQgIbeaudBiElY2k8M69Rf3ZPhqTCpReI7Mn89MLUkGnR_OdBH0"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent opacity-90 p-space-md flex flex-col justify-end text-on-primary"
+                >
+                  <span
+                    class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider"
+                    >Residência Damha • Fachadas</span
+                  >
+                  <h4 class="font-headline-sm text-headline-sm font-bold mt-1">
+                    Fachada Pele de Vidro e Porta Pivotante 5m
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-surface-variant mt-1"
+                  >
+                    Vidro laminado refletivo prata e estrutura oculta Linha
+                    Glazing Structural.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="portfolio-item group relative rounded-xl overflow-hidden shadow-md bg-surface-container"
+                data-category="banheiros residencial"
+              >
+                <img
+                  class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700"
+                  data-alt="Minimalist master bathroom suite with floor to ceiling ultra clear box glass shower enclosure, matte black fixtures, free standing tub, and warm lighting."
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGXW2AFjr4ZrNajdCnxoNezbHCu9zOxevAs5rQztXoJhPsomhCum4XAKUYfV-jMGZX6Hc0-1Fzjbx340rPgitH81KcdpfPIzuf5Ev6QrBGog_dDv_hy3-ZX6N7Fpcknn1ZIglNvHK1uXeqhxVu2aRpjh4EW3tE6eJGTlYoB9M4ByawFVtDbmUY8OWqC8h35zBsQz9IBtVKL6QdywEqwdSRWJjUlIzUHT0H0uv_NuANKzt1su_7_Vzu"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent opacity-90 p-space-md flex flex-col justify-end text-on-primary"
+                >
+                  <span
+                    class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider"
+                    >Mansão Jardim Primavera • Banheiros</span
+                  >
+                  <h4 class="font-headline-sm text-headline-sm font-bold mt-1">
+                    Box Piso-Teto Elegance Black
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-surface-variant mt-1"
+                  >
+                    Vidro 10mm extra-clear temperado com ferragens em aço
+                    inoxidável preto acetinado.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="portfolio-item group relative rounded-xl overflow-hidden shadow-md bg-surface-container"
+                data-category="sacadas residencial"
+              >
+                <img
+                  class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700"
+                  data-alt="Gourmet area integrated with covered veranda using floor-to-ceiling glass sliding doors with flush mounted thresholds connecting to barbecue area."
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuCZU_IB7aPfNzrF6va3cD_imKQ3qfuRBWkhHzAj2vc1BaEQUUKVtf3cvRWqe3_0oxO2QU5OMy-ob_3bvgSgkR_N0V8uJ960vwxXBJUnyggDwFnYL_5lh-teGMc81-QgL9lhXqc9RmIu0g5ORUOEc3pykUHaiO8ohnbm_j5tc-Fir7B42M1dKRMdntrP7rLNBCRmxjep4jgeY_scTzFHF6ShJSt6AyfLZGlJFVLo1xq3qs6St1hJ2-gO"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent opacity-90 p-space-md flex flex-col justify-end text-on-primary"
+                >
+                  <span
+                    class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider"
+                    >Chácara Recanto • Varandas</span
+                  >
+                  <h4 class="font-headline-sm text-headline-sm font-bold mt-1">
+                    Integração Gourmet com Portas de 4 Folhas
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-surface-variant mt-1"
+                  >
+                    Trilhos embutidos no porcelanato para vão livre total de 8
+                    metros.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="portfolio-item group relative rounded-xl overflow-hidden shadow-md bg-surface-container"
+                data-category="fachadas"
+              >
+                <img
+                  class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700"
+                  data-alt="Modern medical clinic facade constructed with reflective curtain glass and precision dark bronze aluminum cladding with illuminated signage."
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZ_L65N2PCinInzYAX4pJtGZuI5Vpm6gjGjcCKi0cENxd3M1evrhbfXTKTA7RL9rMDHyayWGeTZwrRIVnCd4zURxe9jk9AlKspIoH_E2v8IxU4XjVU0l5I67VKN2qMKndWHVzuo-sk29wSzzlTkSczVOkQc0qS20wS-QAQ9tAE714RvRVL_WbabnceVj9_KQTvWFKjbe3PJREWPJIzFyBSczDhxVQsB_SG7-IIatHVK0v7GSBpES5p"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent opacity-90 p-space-md flex flex-col justify-end text-on-primary"
+                >
+                  <span
+                    class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider"
+                    >Centro Clínico São João • Fachadas</span
+                  >
+                  <h4 class="font-headline-sm text-headline-sm font-bold mt-1">
+                    Fachada Solar Control 280m²
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-surface-variant mt-1"
+                  >
+                    Eficiência energética com redução de 64% da entrada de calor
+                    solar no edifício.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="portfolio-item group relative rounded-xl overflow-hidden shadow-md bg-surface-container"
+                data-category="residencial"
+              >
+                <img
+                  class="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-700"
+                  data-alt="Modern staircase inside open plan villa with cantilevered wooden steps and frameless laminated glass balustrade railing."
+                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBX7gE5FKcYN1XJ_xsmW6hOPOO6TY8eeZHqXe7cTIe-n8Dw3Xe6LbnfCkmY0biuDoopnQFvDtJHHz274HbclQtlAetb_EJ03T_qAvsKUkTHTn1r9PH5aqrpFpYeeYJ2INrafNAuQrh8MvotpW9fTr7B4OTRcETkL8t7xh_qF0RMVjY-6k4vUzl9zen6aW2UFeN5LO2ekW9QRMkNHYPwf4uNC_DYYV6hhZhIfa0LXLzd6pRHxhDkiFY5"
+                />
+                <div
+                  class="absolute inset-0 bg-gradient-to-t from-primary via-primary/40 to-transparent opacity-90 p-space-md flex flex-col justify-end text-on-primary"
+                >
+                  <span
+                    class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider"
+                    >Reserva das Palmeiras • Guarda-Corpos</span
+                  >
+                  <h4 class="font-headline-sm text-headline-sm font-bold mt-1">
+                    Guarda-Corpo Escada Autoportante
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-surface-variant mt-1"
+                  >
+                    Vidro laminado temperado 10+10mm com fixação por botões de
+                    inox escovado maciço.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 5. DIFERENCIAIS EXCLUSIVOS SJG -->
+        <section
+          class="w-full py-space-xl bg-primary text-on-primary"
+          id="diferenciais"
+        >
+          <div class="w-full px-margin-sm md:px-margin lg:px-margin-lg">
+            <div
+              class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center"
+            >
+              <div class="lg:col-span-5 flex flex-col gap-space-md">
+                <span
+                  class="text-secondary-fixed font-label-md text-label-md uppercase tracking-widest font-semibold"
+                  >Excelência sem concessões</span
+                >
+                <h2
+                  class="font-headline-xl text-headline-xl text-on-primary font-bold tracking-tight"
+                >
+                  Por Que os Melhores Arquitetos Escolhem a São João Glass?
+                </h2>
+                <p class="font-body-lg text-body-lg text-surface-variant">
+                  Construir ou reformar em alto padrão exige fornecedores que
+                  compartilham a mesma obsessão por cada milímetro e acabamento
+                  limpo.
+                </p>
+                <div
+                  class="p-space-md bg-surface-container-lowest/10 backdrop-blur-md rounded-lg flex items-center gap-space-md"
+                >
+                  <div
+                    class="w-12 h-12 rounded-lg bg-secondary text-on-secondary flex items-center justify-center shrink-0"
+                  >
+                    <span class="material-symbols-outlined text-[28px]"
+                      >verified_user</span
+                    >
+                  </div>
+                  <div class="flex flex-col">
+                    <span class="font-headline-sm text-headline-sm font-bold"
+                      >Garantia Técnica Direta</span
+                    >
+                    <span class="font-body-sm text-body-sm text-surface-variant"
+                      >Assistência preventiva e corretiva com suporte rápido
+                      local.</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div
+                class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-space-md"
+              >
+                <div
+                  class="p-space-md bg-surface-container-lowest/10 backdrop-blur-md rounded-xl flex flex-col gap-space-xs shadow-sm"
+                >
+                  <div
+                    class="w-10 h-10 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center"
+                  >
+                    <span class="material-symbols-outlined text-[22px]"
+                      >straighten</span
+                    >
+                  </div>
+                  <h3
+                    class="font-headline-sm text-headline-sm font-bold text-on-primary mt-1"
+                  >
+                    1. Precisão Milimétrica a Laser
+                  </h3>
+                  <p class="font-body-sm text-body-sm text-surface-variant">
+                    Medição digital no local e modelagem de projetos 3D para
+                    alinhamento impecável com pisos, paredes e forros de gesso.
+                  </p>
+                </div>
+                <div
+                  class="p-space-md bg-surface-container-lowest/10 backdrop-blur-md rounded-xl flex flex-col gap-space-xs shadow-sm"
+                >
+                  <div
+                    class="w-10 h-10 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center"
+                  >
+                    <span class="material-symbols-outlined text-[22px]"
+                      >engineering</span
+                    >
+                  </div>
+                  <h3
+                    class="font-headline-sm text-headline-sm font-bold text-on-primary mt-1"
+                  >
+                    2. Equipe Própria Certificada
+                  </h3>
+                  <p class="font-body-sm text-body-sm text-surface-variant">
+                    Instaladores uniformizados, pontuais e com treinamento de
+                    obra limpa. Respeito ao seu patrimônio e sem terceirizações
+                    arriscadas.
+                  </p>
+                </div>
+                <div
+                  class="p-space-md bg-surface-container-lowest/10 backdrop-blur-md rounded-xl flex flex-col gap-space-xs shadow-sm"
+                >
+                  <div
+                    class="w-10 h-10 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center"
+                  >
+                    <span class="material-symbols-outlined text-[22px]"
+                      >workspace_premium</span
+                    >
+                  </div>
+                  <h3
+                    class="font-headline-sm text-headline-sm font-bold text-on-primary mt-1"
+                  >
+                    3. Matéria-Prima Homologada
+                  </h3>
+                  <p class="font-body-sm text-body-sm text-surface-variant">
+                    Vidros temperados e laminados oriundos das melhores têmperas
+                    com selo INMETRO e ligas de alumínio 6063 com garantia
+                    anti-corrosão.
+                  </p>
+                </div>
+                <div
+                  class="p-space-md bg-surface-container-lowest/10 backdrop-blur-md rounded-xl flex flex-col gap-space-xs shadow-sm"
+                >
+                  <div
+                    class="w-10 h-10 rounded-lg bg-secondary-container text-on-secondary-container flex items-center justify-center"
+                  >
+                    <span class="material-symbols-outlined text-[22px]"
+                      >schedule</span
+                    >
+                  </div>
+                  <h3
+                    class="font-headline-sm text-headline-sm font-bold text-on-primary mt-1"
+                  >
+                    4. Pontualidade Contratual
+                  </h3>
+                  <p class="font-body-sm text-body-sm text-surface-variant">
+                    Cronograma de fabricação e montagem transparente com data de
+                    entrega estipulada em contrato e acompanhamento semanal.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 6. DEPOIMENTOS DE CLIENTES & ARQUITETOS -->
+        <section class="w-full py-space-xl bg-surface-container-low">
+          <div class="w-full px-margin-sm md:px-margin lg:px-margin-lg">
+            <div
+              class="flex flex-col items-center text-center gap-space-xs mb-space-xl max-w-2xl mx-auto"
+            >
+              <span
+                class="text-secondary font-label-md text-label-md uppercase tracking-widest font-semibold"
+                >Reputação e Confiança</span
+              >
+              <h2
+                class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight"
+              >
+                O Que Dizem Nossos Clientes e Parceiros
+              </h2>
+              <p class="font-body-lg text-body-lg text-on-surface-variant">
+                A avaliação de quem confiou suas obras e residências à equipe da
+                São João Glass.
+              </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+              <!-- Depoimento 1 -->
+              <div
+                class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm flex flex-col justify-between gap-space-md"
+              >
+                <div class="flex flex-col gap-space-sm">
+                  <div class="flex text-[#ffb703]">
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                  </div>
+                  <p
+                    class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed"
+                  >
+                    "Como arquiteta, a maior dor de cabeça costuma ser o
+                    alinhamento das esquadrias e o esquadro dos vidros. A equipe
+                    da SJG executou todas as portas da Linha Gold e o
+                    envidraçamento da varanda com perfeição absoluta. Meus
+                    clientes ficaram encantados!"
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-sm pt-space-xs">
+                  <div
+                    class="w-11 h-11 rounded-full bg-secondary-fixed text-primary flex items-center justify-center font-bold font-headline-sm"
+                  >
+                    AR
+                  </div>
+                  <div class="flex flex-col">
+                    <span
+                      class="font-headline-sm text-headline-sm text-primary font-bold"
+                      >Arq. Fernanda Mantovani</span
+                    >
+                    <span
+                      class="font-label-sm text-label-sm text-on-surface-variant"
+                      >Mantovani Arquitetura • SJBV</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Depoimento 2 -->
+              <div
+                class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm flex flex-col justify-between gap-space-md"
+              >
+                <div class="flex flex-col gap-space-sm">
+                  <div class="flex text-[#ffb703]">
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                  </div>
+                  <p
+                    class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed"
+                  >
+                    "Fizemos o fechamento da sacada do nosso apartamento e os
+                    boxes dos banheiros. O atendimento do consultor foi
+                    excelente, explicaram todas as normas de segurança e
+                    cumpriram a data de entrega no dia combinado. Instalação
+                    extremamente limpa."
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-sm pt-space-xs">
+                  <div
+                    class="w-11 h-11 rounded-full bg-secondary-fixed text-primary flex items-center justify-center font-bold font-headline-sm"
+                  >
+                    RS
+                  </div>
+                  <div class="flex flex-col">
+                    <span
+                      class="font-headline-sm text-headline-sm text-primary font-bold"
+                      >Rodrigo S. Oliveira</span
+                    >
+                    <span
+                      class="font-label-sm text-label-sm text-on-surface-variant"
+                      >Proprietário no Condomínio Mantiqueira</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Depoimento 3 -->
+              <div
+                class="p-space-lg bg-surface-container-lowest rounded-xl shadow-sm flex flex-col justify-between gap-space-md"
+              >
+                <div class="flex flex-col gap-space-sm">
+                  <div class="flex text-[#ffb703]">
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                    <span
+                      class="material-symbols-outlined text-[20px]"
+                      style="font-variation-settings: &quot;FILL&quot; 1"
+                      >star</span
+                    >
+                  </div>
+                  <p
+                    class="font-body-md text-body-md text-on-surface-variant italic leading-relaxed"
+                  >
+                    "A fachada glazing do nosso centro comercial ficou
+                    espetacular. O conforto térmico dentro dos consultórios
+                    aumentou visivelmente e a estética valorizou todo o imóvel.
+                    O suporte pós-venda da São João Glass é nota dez."
+                  </p>
+                </div>
+                <div class="flex items-center gap-space-sm pt-space-xs">
+                  <div
+                    class="w-11 h-11 rounded-full bg-secondary-fixed text-primary flex items-center justify-center font-bold font-headline-sm"
+                  >
+                    CL
+                  </div>
+                  <div class="flex flex-col">
+                    <span
+                      class="font-headline-sm text-headline-sm text-primary font-bold"
+                      >Carlos Eduardo Lima</span
+                    >
+                    <span
+                      class="font-label-sm text-label-sm text-on-surface-variant"
+                      >Diretor Comercial • Empreendimentos Lima</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 7. SIMULADOR & FORMULÁRIO RÁPIDO DE ORÇAMENTO COM CONTATO LOCAL -->
+        <section class="w-full py-space-xl bg-surface" id="orcamento">
+          <div class="w-full px-margin-sm md:px-margin lg:px-margin-lg">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+              <!-- Formulário de Medição e Orçamento -->
+              <div
+                class="lg:col-span-7 bg-surface-container-lowest p-space-lg md:p-space-xl rounded-2xl shadow-xl flex flex-col gap-space-md"
+              >
+                <div class="flex flex-col gap-space-xs">
+                  <span
+                    class="text-secondary font-label-md text-label-md uppercase tracking-wider font-semibold"
+                    >Orçamento Sem Compromisso</span
+                  >
+                  <h3
+                    class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight"
+                  >
+                    Solicite uma Cotação ou Visita Técnica
+                  </h3>
+                  <p class="font-body-md text-body-md text-on-surface-variant">
+                    Preencha os dados abaixo para receber um atendimento
+                    preliminar ágil de nossa equipe de engenharia e orçamento.
+                  </p>
+                </div>
+                <form
+                  class="grid grid-cols-1 md:grid-cols-2 gap-space-md"
+                  id="orcamento-form"
+                  onsubmit="
+                    event.preventDefault();
+                    document
+                      .getElementById('form-success')
+                      .classList.remove('hidden');
+                    this.reset();
+                  "
+                >
+                  <div class="flex flex-col gap-1">
+                    <label
+                      class="font-label-md text-label-md text-primary font-semibold"
+                      for="form-nome"
+                      >Nome Completo *</label
+                    >
+                    <input
+                      class="h-11 px-space-md rounded bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-secondary"
+                      id="form-nome"
+                      placeholder="Ex.: Lucas Moreira"
+                      required=""
+                      type="text"
+                    />
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <label
+                      class="font-label-md text-label-md text-primary font-semibold"
+                      for="form-whatsapp"
+                      >WhatsApp para Retorno *</label
+                    >
+                    <input
+                      class="h-11 px-space-md rounded bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-secondary"
+                      id="form-whatsapp"
+                      placeholder="(19) 99999-9999"
+                      required=""
+                      type="tel"
+                    />
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <label
+                      class="font-label-md text-label-md text-primary font-semibold"
+                      for="form-cidade"
+                      >Cidade / Condomínio *</label
+                    >
+                    <input
+                      class="h-11 px-space-md rounded bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-secondary"
+                      id="form-cidade"
+                      placeholder="São João da Boa Vista ou Região"
+                      required=""
+                      type="text"
+                    />
+                  </div>
+                  <div class="flex flex-col gap-1">
+                    <label
+                      class="font-label-md text-label-md text-primary font-semibold"
+                      for="form-servico"
+                      >Serviço Desejado *</label
+                    >
+                    <select
+                      class="h-11 px-space-md rounded bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-secondary"
+                      id="form-servico"
+                      required=""
+                    >
+                      <option value="">Selecione a solução</option>
+                      <option value="sacada">
+                        Envidraçamento de Sacada (Reiki)
+                      </option>
+                      <option value="esquadria">
+                        Esquadrias de Alumínio (Linha Gold/Suprema)
+                      </option>
+                      <option value="box">Box para Banheiro Especial</option>
+                      <option value="guarda-corpo">
+                        Guarda-Corpos &amp; Corrimãos
+                      </option>
+                      <option value="fachada">
+                        Fachada Pele de Vidro / Glazing
+                      </option>
+                      <option value="espelhos">
+                        Espelhos Bisotados &amp; Decorativos
+                      </option>
+                      <option value="outro">Outro Projeto Sob Medida</option>
+                    </select>
+                  </div>
+                  <div class="flex flex-col gap-1 md:col-span-2">
+                    <label
+                      class="font-label-md text-label-md text-primary font-semibold"
+                      for="form-mensagem"
+                      >Medidas Aproximadas ou Detalhes da Obra</label
+                    >
+                    <textarea
+                      class="p-space-md rounded bg-surface-container-low text-on-surface font-body-md text-body-md focus:outline-none focus:ring-2 focus:ring-secondary"
+                      id="form-mensagem"
+                      placeholder="Ex.: Sacada em 'L' com aproximadamente 6 metros lineares por 2,40m de altura..."
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <div
+                    class="md:col-span-2 flex flex-col sm:flex-row items-center justify-between gap-space-md pt-space-xs"
+                  >
+                    <div
+                      class="flex items-center gap-space-xs text-on-surface-variant font-label-sm text-label-sm"
+                    >
+                      <span
+                        class="material-symbols-outlined text-secondary text-[18px]"
+                        >lock</span
+                      >
+                      <span>Seus dados são protegidos e confidenciais.</span>
+                    </div>
+                    <button
+                      class="w-full sm:w-auto px-space-xl py-space-sm bg-secondary hover:bg-secondary-container text-on-secondary hover:text-on-secondary-container rounded-lg font-label-lg text-label-lg font-semibold shadow-md transition-all flex items-center justify-center gap-space-xs"
+                      type="submit"
+                    >
+                      <span>Enviar Solicitação</span>
+                      <span class="material-symbols-outlined text-[18px]"
+                        >send</span
+                      >
+                    </button>
+                  </div>
+                  <div
+                    class="hidden md:col-span-2 p-space-md bg-surface-container text-secondary rounded-lg font-label-md text-label-md flex items-center gap-space-xs"
+                    id="form-success"
+                  >
+                    <span class="material-symbols-outlined text-[20px]"
+                      >check_circle</span
+                    >
+                    <span
+                      >Solicitação recebida com sucesso! Em instantes nosso
+                      especialista entrará em contato via WhatsApp.</span
+                    >
+                  </div>
+                </form>
+              </div>
+              <!-- Bloco de Contato Direto & Mapa -->
+              <div
+                class="lg:col-span-5 flex flex-col justify-between gap-space-lg"
+              >
+                <div
+                  class="bg-primary text-on-primary p-space-lg md:p-space-xl rounded-2xl flex flex-col gap-space-md shadow-xl"
+                >
+                  <span
+                    class="text-secondary-fixed font-label-md text-label-md uppercase tracking-widest font-semibold"
+                    >Atendimento Prioritário</span
+                  >
+                  <h4 class="font-headline-lg text-headline-lg font-bold">
+                    Fale Diretamente com Nosso Plantão Técnico
+                  </h4>
+                  <div
+                    class="flex flex-col gap-space-sm pt-space-xs font-body-md text-body-md text-surface-variant"
+                  >
+                    <a
+                      class="flex items-center gap-space-sm p-space-sm rounded bg-surface-container-lowest/10 hover:bg-secondary transition-colors text-on-primary"
+                      href="#"
+                    >
+                      <span
+                        class="material-symbols-outlined text-secondary-fixed text-[24px]"
+                        >chat</span
+                      >
+                      <div>
+                        <span
+                          class="block font-label-md text-label-md font-semibold text-secondary-fixed"
+                          >WhatsApp Plantão</span
+                        >
+                        <span
+                          class="block font-headline-sm text-headline-sm font-bold text-on-primary"
+                          >(19) 99876-5432</span
+                        >
+                      </div>
+                    </a>
+                    <div
+                      class="flex items-center gap-space-sm p-space-sm rounded bg-surface-container-lowest/10"
+                    >
+                      <span
+                        class="material-symbols-outlined text-secondary-fixed text-[24px]"
+                        >call</span
+                      >
+                      <div>
+                        <span
+                          class="block font-label-md text-label-md font-semibold text-secondary-fixed"
+                          >Telefone Fixo / Showroom</span
+                        >
+                        <span
+                          class="block font-headline-sm text-headline-sm font-bold text-on-primary"
+                          >(19) 3631-0000</span
+                        >
+                      </div>
+                    </div>
+                    <div
+                      class="flex items-center gap-space-sm p-space-sm rounded bg-surface-container-lowest/10"
+                    >
+                      <span
+                        class="material-symbols-outlined text-secondary-fixed text-[24px]"
+                        >mail</span
+                      >
+                      <div>
+                        <span
+                          class="block font-label-md text-label-md font-semibold text-secondary-fixed"
+                          >E-mail Corporativo</span
+                        >
+                        <span
+                          class="block font-body-md text-body-md text-on-primary"
+                          >contato@saojoaoglass.com.br</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- Mapa de Localização -->
+                <div class="flex flex-col gap-space-xs">
+                  <div
+                    class="flex items-center gap-space-xs text-primary font-semibold"
+                  >
+                    <span
+                      class="material-symbols-outlined text-secondary text-[20px]"
+                      >pin_drop</span
+                    >
+                    <span class="font-label-lg text-label-lg"
+                      >Distrito Industrial - São João da Boa Vista - SP</span
+                    >
+                  </div>
+                  <div
+                    class="w-full h-48 bg-cover bg-center rounded-xl shadow-md"
+                    data-location="Distrito Industrial, São João da Boa Vista, SP, Brasil"
+                    style="
+                      background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuCEqQ1moZ6Tgo9WQmlCIrSnQNgqzJakcPCGaL9KEKCgzK-IP1rNsh7N3p4-zmj75_cqxoc1Qr-_-hH1ikSHJMMD2ZpUyms9oYF2SX1nPsL75ivOKUbDl1H6EuFxNHaFQa4KdrFMWJce6KcDt0g-c2w8g26uud7uuTr9559QtCiBj_POUneGulNFbX6PSBgYitFhEui-xToUp4JP3dEELOJ4GZLPu8g7TSIbOqcKoQQ6ls4meoBAR0Mm&quot;);
+                    "
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- 8. FAQ - PERGUNTAS FREQUENTES -->
+        <section class="w-full py-space-xl bg-surface-container-low">
+          <div class="w-full px-margin-sm md:px-margin lg:px-margin-lg">
+            <div
+              class="flex flex-col items-center text-center gap-space-xs mb-space-xl max-w-2xl mx-auto"
+            >
+              <span
+                class="text-secondary font-label-md text-label-md uppercase tracking-widest font-semibold"
+                >Tire Suas Dúvidas</span
+              >
+              <h2
+                class="font-headline-xl text-headline-xl text-primary font-bold tracking-tight"
+              >
+                Perguntas Frequentes (FAQ)
+              </h2>
+              <p class="font-body-lg text-body-lg text-on-surface-variant">
+                Informações transparentes sobre processos, prazos, formas de
+                pagamento e garantias.
+              </p>
+            </div>
+            <div
+              class="max-w-3xl mx-auto flex flex-col gap-space-sm"
+              id="faq-accordion"
+            >
+              <!-- FAQ 1 -->
+              <div
+                class="faq-card bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden"
+              >
+                <button
+                  class="w-full p-space-md flex items-center justify-between text-left font-headline-sm text-headline-sm text-primary font-semibold hover:text-secondary transition-colors"
+                  onclick="
+                    this.nextElementSibling.classList.toggle('hidden');
+                    this.querySelector('.faq-icon').classList.toggle(
+                      'rotate-180',
+                    );
+                  "
+                >
+                  <span
+                    >Qual o prazo médio de fabricação e entrega dos
+                    vidros?</span
+                  >
+                  <span
+                    class="material-symbols-outlined faq-icon transition-transform duration-300"
+                    >expand_more</span
+                  >
+                </button>
+                <div
+                  class="px-space-md pb-space-md text-on-surface-variant font-body-md text-body-md"
+                >
+                  O prazo padrão varia entre 15 e 25 dias úteis a depender da
+                  complexidade do projeto (se envolve têmpera especial, vidros
+                  laminados acústicos ou perfis com pintura especial Linha
+                  Gold). Todos os prazos são firmados via contrato com
+                  cronograma transparente.
+                </div>
+              </div>
+              <!-- FAQ 2 -->
+              <div
+                class="faq-card bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden"
+              >
+                <button
+                  class="w-full p-space-md flex items-center justify-between text-left font-headline-sm text-headline-sm text-primary font-semibold hover:text-secondary transition-colors"
+                  onclick="
+                    this.nextElementSibling.classList.toggle('hidden');
+                    this.querySelector('.faq-icon').classList.toggle(
+                      'rotate-180',
+                    );
+                  "
+                >
+                  <span
+                    >Vocês realizam visita para medição técnica sem
+                    compromisso?</span
+                  >
+                  <span
+                    class="material-symbols-outlined faq-icon transition-transform duration-300"
+                    >expand_more</span
+                  >
+                </button>
+                <div
+                  class="px-space-md pb-space-md text-on-surface-variant font-body-md text-body-md hidden"
+                >
+                  Sim! Para São João da Boa Vista, Águas da Prata, Espírito
+                  Santo do Pinhal e região próxima, nossos técnicos realizam a
+                  medição de conferência com medidores digitais a laser
+                  gratuitamente após a aprovação da pré-cotação.
+                </div>
+              </div>
+              <!-- FAQ 3 -->
+              <div
+                class="faq-card bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden"
+              >
+                <button
+                  class="w-full p-space-md flex items-center justify-between text-left font-headline-sm text-headline-sm text-primary font-semibold hover:text-secondary transition-colors"
+                  onclick="
+                    this.nextElementSibling.classList.toggle('hidden');
+                    this.querySelector('.faq-icon').classList.toggle(
+                      'rotate-180',
+                    );
+                  "
+                >
+                  <span>Quais são as formas de pagamento disponíveis?</span>
+                  <span
+                    class="material-symbols-outlined faq-icon transition-transform duration-300"
+                    >expand_more</span
+                  >
+                </button>
+                <div
+                  class="px-space-md pb-space-md text-on-surface-variant font-body-md text-body-md hidden"
+                >
+                  Facilitamos seu investimento com condições especiais à vista
+                  (com desconto), parcelamento no cartão de crédito em até 12x
+                  ou parcelamento direto conforme medições de obra para
+                  construtoras e arquitetos parceiros.
+                </div>
+              </div>
+              <!-- FAQ 4 -->
+              <div
+                class="faq-card bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden"
+              >
+                <button
+                  class="w-full p-space-md flex items-center justify-between text-left font-headline-sm text-headline-sm text-primary font-semibold hover:text-secondary transition-colors"
+                  onclick="
+                    this.nextElementSibling.classList.toggle('hidden');
+                    this.querySelector('.faq-icon').classList.toggle(
+                      'rotate-180',
+                    );
+                  "
+                >
+                  <span
+                    >Os vidros possuem certificação de segurança do
+                    INMETRO?</span
+                  >
+                  <span
+                    class="material-symbols-outlined faq-icon transition-transform duration-300"
+                    >expand_more</span
+                  >
+                </button>
+                <div
+                  class="px-space-md pb-space-md text-on-surface-variant font-body-md text-body-md hidden"
+                >
+                  Com certeza. 100% dos nossos vidros temperados e laminados são
+                  produzidos em têmperas credenciadas com gravação indelével da
+                  marca do fabricante e certificação INMETRO, em estrito
+                  cumprimento das normas ABNT NBR 14698, NBR 16259 e NBR 14718.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Script Inline para Filtro de Portfólio -->
+        <script>
+          document
+            .querySelectorAll(".portfolio-filter-btn")
+            .forEach((button) => {
+              button.addEventListener("click", () => {
+                document
+                  .querySelectorAll(".portfolio-filter-btn")
+                  .forEach((btn) => {
+                    btn.classList.remove(
+                      "bg-primary",
+                      "text-on-primary",
+                      "active",
+                    );
+                    btn.classList.add(
+                      "bg-surface-container",
+                      "text-on-surface-variant",
+                    );
+                  });
+                button.classList.add("bg-primary", "text-on-primary", "active");
+                button.classList.remove(
+                  "bg-surface-container",
+                  "text-on-surface-variant",
+                );
+
+                const filter = button.getAttribute("data-filter");
+                document.querySelectorAll(".portfolio-item").forEach((item) => {
+                  if (
+                    filter === "all" ||
+                    item.getAttribute("data-category").includes(filter)
+                  ) {
+                    item.style.display = "block";
+                  } else {
+                    item.style.display = "none";
+                  }
+                });
+              });
+            });
+        </script>
+      </div>
+    </main>
+    <footer class="w-full bg-primary text-on-primary pt-space-xl pb-space-lg">
+      <div class="w-full px-margin-sm md:px-margin lg:px-margin-lg">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl pb-space-xl"
+        >
+          <div class="flex flex-col gap-space-md">
+            <div class="flex items-center gap-space-sm">
+              <div
+                class="w-9 h-9 rounded-lg bg-surface-container-lowest/10 flex items-center justify-center"
+              >
+                <span
+                  class="material-symbols-outlined text-secondary-fixed text-[22px]"
+                  >window</span
+                >
+              </div>
+              <div>
+                <span
+                  class="font-headline-sm text-headline-sm text-on-primary block font-bold"
+                  >SJG</span
+                ><span
+                  class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider block"
+                  >São João Glass</span
+                >
+              </div>
+            </div>
+            <p class="font-body-md text-body-md text-surface-variant/80">
+              Vidros temperados, laminados de segurança e esquadrias de alumínio
+              em alto padrão arquitetônico com precisão milimétrica.
+            </p>
+            <div class="flex items-center gap-space-sm pt-space-xs">
+              <span
+                class="material-symbols-outlined text-secondary-fixed text-[20px]"
+                >verified</span
+              ><span class="font-label-sm text-label-sm text-surface-variant"
+                >Conformidade Técnica ABNT NBR 14698 / 14718</span
+              >
+            </div>
+          </div>
+          <div class="flex flex-col gap-space-sm">
+            <span
+              class="font-headline-sm text-headline-sm text-on-primary pb-space-xs font-semibold"
+              >Navegação</span
+            >
+            <nav class="flex flex-col gap-space-xs">
+              <a
+                class="font-body-md text-body-md text-surface-variant/80 hover:text-secondary-fixed transition-colors"
+                data-path="inicio"
+                href="#"
+                >Início</a
+              ><a
+                class="font-body-md text-body-md text-surface-variant/80 hover:text-secondary-fixed transition-colors"
+                data-path="sobre-nos"
+                href="#"
+                >Sobre a SJG</a
+              ><a
+                class="font-body-md text-body-md text-surface-variant/80 hover:text-secondary-fixed transition-colors"
+                data-path="solucoes-servicos"
+                href="#"
+                >Soluções &amp; Serviços</a
+              ><a
+                class="font-body-md text-body-md text-surface-variant/80 hover:text-secondary-fixed transition-colors"
+                data-path="projetos-recentes"
+                href="#"
+                >Portfólio de Projetos</a
+              ><a
+                class="font-body-md text-body-md text-surface-variant/80 hover:text-secondary-fixed transition-colors"
+                data-path="diferenciais"
+                href="#"
+                >Diferenciais Construtivos</a
+              ><a
+                class="font-body-md text-body-md text-surface-variant/80 hover:text-secondary-fixed transition-colors"
+                data-path="contato"
+                href="#"
+                >Fale Conosco</a
+              >
+            </nav>
+          </div>
+          <div class="flex flex-col gap-space-sm">
+            <span
+              class="font-headline-sm text-headline-sm text-on-primary pb-space-xs font-semibold"
+              >Soluções em Vidro</span
+            >
+            <ul
+              class="flex flex-col gap-space-xs text-surface-variant/80 font-body-md text-body-md"
+            >
+              <li>Envidraçamento de Sacadas (Sistema Reiki)</li>
+              <li>Box de Vidro Temperado Especial</li>
+              <li>Guarda-Corpos Autoportantes em Inox</li>
+              <li>Fachadas Pele de Vidro &amp; Glazing</li>
+              <li>Espelhos Lapidados &amp; Painéis Bisotados</li>
+              <li>Portas Pivotantes e Divisórias Acústicas</li>
+            </ul>
+          </div>
+          <div class="flex flex-col gap-space-md">
+            <span
+              class="font-headline-sm text-headline-sm text-on-primary font-semibold"
+              >Atendimento</span
+            >
+            <div
+              class="flex flex-col gap-space-xs font-body-md text-body-md text-surface-variant/80"
+            >
+              <div class="flex items-start gap-space-xs">
+                <span
+                  class="material-symbols-outlined text-secondary-fixed text-[18px] mt-1"
+                  >location_on</span
+                ><span
+                  >Av. das Esquadrias, 1050 - Distrito Industrial, São João da
+                  Boa Vista - SP</span
+                >
+              </div>
+              <div class="flex items-center gap-space-xs">
+                <span
+                  class="material-symbols-outlined text-secondary-fixed text-[18px]"
+                  >schedule</span
+                ><span>Seg a Sex: 08h às 18h | Sáb: 08h às 12h</span>
+              </div>
+              <div class="flex items-center gap-space-xs">
+                <span
+                  class="material-symbols-outlined text-secondary-fixed text-[18px]"
+                  >phone_in_talk</span
+                ><span>(19) 99876-5432 / (19) 3631-0000</span>
+              </div>
+            </div>
+            <div class="flex items-center gap-space-sm pt-space-xs">
+              <a
+                aria-label="WhatsApp Direto"
+                class="w-10 h-10 rounded-lg bg-surface-container-lowest/10 hover:bg-secondary flex items-center justify-center text-on-primary transition-all"
+                href="#"
+                ><span class="material-symbols-outlined text-[20px]"
+                  >chat</span
+                ></a
+              ><a
+                aria-label="Canal Instagram"
+                class="w-10 h-10 rounded-lg bg-surface-container-lowest/10 hover:bg-secondary flex items-center justify-center text-on-primary transition-all"
+                href="#"
+                ><span class="material-symbols-outlined text-[20px]"
+                  >photo_camera</span
+                ></a
+              ><a
+                aria-label="Canal Facebook"
+                class="w-10 h-10 rounded-lg bg-surface-container-lowest/10 hover:bg-secondary flex items-center justify-center text-on-primary transition-all"
+                href="#"
+                ><span class="material-symbols-outlined text-[20px]"
+                  >public</span
+                ></a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="pt-space-lg mt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-sm font-body-sm text-body-sm text-surface-variant/60"
+        >
+          <p>
+            © 2025 SJG - São João Glass Vidros e Esquadrias. Todos os direitos
+            reservados. CNPJ: 00.000.000/0001-00.
+          </p>
+          <div class="flex items-center gap-space-md">
+            <span class="font-label-sm text-label-sm text-secondary-fixed"
+              >Engenharia &amp; Design Arquitetônico</span
+            ><span>Termos de Uso</span><span>Política de Privacidade</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <aside class="fixed bottom-6 right-6 z-50">
+      <a
+        aria-label="Conversar no WhatsApp"
+        class="group flex items-center gap-space-xs bg-secondary hover:bg-secondary-container px-space-md py-space-sm rounded-full text-on-secondary hover:text-on-secondary-container shadow-[0_12px_32px_-8px_rgba(11,37,69,0.35)] transition-all"
+        data-path="solicitar-orcamento"
+        href="#"
+        ><span class="material-symbols-outlined text-[24px]">chat</span
+        ><span
+          class="hidden sm:inline font-label-lg text-label-lg font-semibold tracking-wide"
+          >Orçamento WhatsApp</span
+        ></a
+      >
+    </aside>
+  </body>
+</html>
